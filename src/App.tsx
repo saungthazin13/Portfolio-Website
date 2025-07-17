@@ -5,16 +5,16 @@ const App: React.FC = () => {
     <>
       <header className="bg-gray-900 dark:bg-gray-800 text-white text-center p-8 relative">
         <img
-          src="\images\profile.png"
+          src="\images\profilo-image.jpg"
           alt="Saung Thazin Oo Profile Photo"
           className="w-32 h-32 rounded-full object-cover border-4 border-green-500 mx-auto mb-4"
         />
-        <h1 className="text-3xl font-semibold mb-2">Hello, I’m Saung Thazin Oo</h1>
-        <p className="mb-4">Developer Position</p>
+        <h1 className=" md:text-3xl font-semibold mb-2  text-lg">
+          Hello, I’m Saung Thazin Oo
+        </h1>
+        <p className="mb-4">React Developer Position</p>
 
         <div className="flex justify-center gap-4">
-
-
           <a
             href="/files/CV Form.pdf"
             target="_blank"
@@ -31,9 +31,8 @@ const App: React.FC = () => {
             aria-label="View Resume"
             className="bg-green-500 text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-green-600 transition"
           >
-            📄 download  CV
+            📄 download CV
           </a>
-
         </div>
       </header>
 
@@ -45,32 +44,110 @@ const App: React.FC = () => {
           <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-3 mb-4">
             👨‍💻 About Me
           </h2>
-          <p>
-            I hold a Bachelor's degree in Computer Science from XYZ University and
-            have completed multiple backend development certifications including
-            Node.js and MongoDB fundamentals.
+          <p className=" text-base/8 text-justify font-medium">
+            I graduated with a Bachelor of Computer Science (Honours) from the
+            University of Computer Studies (Myeik). I am highly passionate about
+            creating modern and innovative websites using React, and I
+            continuously explore new frontend technologies to stay up to date
+            with the latest trends. While my main focus is on frontend
+            development, I also have a foundational understanding of backend
+            development. I have working knowledge of Node.js and the Prisma
+            database, and I am capable of contributing to full-stack projects at
+            a basic level. I am eager to further improve my skills and am highly
+            motivated to participate in real-world projects that make a
+            meaningful impact.
           </p>
-          <p className="mt-3">
-            I have gained practical experience through internships and freelance
-            projects, focusing on building robust RESTful APIs with JWT
-            authentication and efficient database designs.
+
+          <p className="mt-3 text-base/8 text-justify font-medium">
+            I’m passionate about building clean, reliable systems and
+            continuously improving my skills through new technologies. With a
+            frontend focus and some backend experience, I aim to grow as a
+            developer. I’m proactive, collaborative, and enjoy solving
+            real-world problems as part of a team.
           </p>
-          <p className="mt-3">
-            <strong>Tech Stack:</strong> Node.js, Express.js, MongoDB, Mongoose,
-            JWT, REST APIs, GraphQL, Docker, Git, Postman.
-          </p>
-          <p className="mt-3">
-            I am passionate about creating clean, scalable backend systems and
-            constantly improving my skills by learning new technologies. My career
-            goal is to become a proficient backend developer contributing to
-            impactful, real-world projects.
-          </p>
-          <p className="mt-3">
-            As a dedicated team player, I am proactive, detail-oriented, and enjoy
-            solving complex problems. I believe that effective communication and
-            collaboration are essential for delivering successful software
-            solutions.
-          </p>
+
+          <div className="mt-6">
+            <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-3 mb-4">
+              🛠 Tech Stack
+            </h2>
+
+            <div className="space-y-4 text-gray-700">
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Languages
+                </h3>
+                <p className="text-sm sm:text-base">
+                  JavaScript (ES6+), TypeScript, HTML5, CSS
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Frontend Frameworks & Libraries
+                </h3>
+                <p className="text-sm sm:text-base">
+                  React.js, shadcn/ui, Tailwind CSS, React Router
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  State Management
+                </h3>
+                <p className="text-sm sm:text-base">
+                  Redux Toolkit, Zustand (optional)
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  UI & Styling
+                </h3>
+                <p className="text-sm sm:text-base">
+                  Tailwind CSS, shadcn/ui (Radix-based UI library)
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Form & Validation
+                </h3>
+                <p className="text-sm sm:text-base">React Hook Form, Zod</p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  API & Data Fetching
+                </h3>
+                <p className="text-sm sm:text-base">
+                  REST API, Axios, React Query (TanStack Query)
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Developer Tools
+                </h3>
+                <p className="text-sm sm:text-base">Git, GitHub, npm</p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Deployment Platforms
+                </h3>
+                <p className="text-sm sm:text-base">
+                  Vercel, Render, GitHub Pages
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-green-600">
+                  Build Tools
+                </h3>
+                <p className="text-sm sm:text-base">Vite</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section
@@ -82,19 +159,60 @@ const App: React.FC = () => {
           </h2>
 
           <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
-            <img
-              src="\images\task.png"
-              alt="Task API Project Screenshot"
-              className="w-full md:w-1/3 object-cover"
-            />
-            <div className="p-6 flex flex-col justify-center">
-              <h3 className="text-xl font-semibold mb-2">📝 Task Manager API</h3>
-              <p>
-                A personal task tracker API with full CRUD operations and JWT
-                authentication.
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\travel.PNG"
+                alt="TravelPay"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">📝 TravelPay</h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                This is a Trip Payment App built . It lets users search trips,
+                view details, fill payment form, and get a success confirmation.
               </p>
-              <p>
-                <strong>Stack:</strong> Node.js, Express, MongoDB, JWT
+              <p className="mt-3">
+                <strong>Stack:</strong> React, Vite , TypeScript,Tailwind CSS ,
+                Shadcn/ui ,React Router,React Hook Form + Zod,clsx, lucide-react
+              </p>
+              <a
+                href="https://github.com/saungthazin13/TravelPayment"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:underline mt-2 font-semibold"
+              >
+                🔗 View Code
+              </a>
+              <a
+                href="https://travel-payment.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://travel-payment.vercel.app/
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\Funiture shop.PNG"
+                alt="Funiture Shop"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">📝 Funiture Shop</h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                Transform your living space with our beautifully crafted
+                furniture. Whether you're looking for classic designs or modern
+                comfort, we have the perfect pieces for your home.
+              </p>
+              <p className="mt-3">
+                <strong>Stack:</strong> React, Vite , TypeScript,Tailwind CSS ,
+                Shadcn/ui ,Lucide Icons,Recharts,React Router
               </p>
               <a
                 href="https://github.com/saungthazin13/Ecommerce-site"
@@ -104,31 +222,122 @@ const App: React.FC = () => {
               >
                 🔗 View Code
               </a>
+              <a
+                href="https://ecommerce-site-hokx.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://ecommerce-site-hokx.vercel.app/
+              </a>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
-            <img
-              src="\images\task.png"
-              alt="Blog API Project Screenshot"
-              className="w-full md:w-1/3 object-cover"
-            />
-            <div className="p-6 flex flex-col justify-center">
-              <h3 className="text-xl font-semibold mb-2">📰 Blog API</h3>
-              <p>
-                Blog post API with admin-user roles, secure access, and MongoDB
-                schema design.
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\admindash.png"
+                alt="Ecommerce AdminDashboard"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">
+                📝 Ecommerce Admin Dashboard
+              </h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                A responsive eCommerce Admin Dashboard that lets store admins
+                manage products, orders, users, sales, and discounts efficiently
+                with insightful charts and a clean, user-friendly UI.
               </p>
-              <p>
-                <strong>Stack:</strong> Node.js, Express, MongoDB, Mongoose
+              <p className="mt-3">
+                <strong>Stack:</strong> React, Vite , TypeScript,Tailwind CSS ,
+                Shadcn/ui ,Lucide Icons,Recharts,React Router
               </p>
               <a
-                href="https://github.com/saungthazin13/Ecommerce-site"
+                href="https://github.com/saungthazin13/AdminDashboard"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-500 hover:underline mt-2 font-semibold"
               >
                 🔗 View Code
+              </a>
+              <a
+                href="https://admin-dashboard-89ei.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://admin-dashboard-89ei.vercel.app/
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\fashs.png"
+                alt="Fashion Shop"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">📝 Fashion Shop</h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                A modern and stylish fashion shop offering a wide selection of
+                men’s and women’s clothing — from everyday wear to trendy
+                seasonal outfits.
+              </p>
+
+              <a
+                href="https://github.com/saungthazin13/fashionshop"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:underline mt-2 font-semibold"
+              >
+                🔗 View Code
+              </a>
+              <a
+                href="https://fashionshop-one.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://fashionshop-one.vercel.app/
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\calculator.png"
+                alt=" Loan Calculator"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">📝 Loan Calculator</h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                Developed a clean and functional Yoma loan calculator clone
+                using ES6, focusing on UX and precise loan calculations.
+              </p>
+
+              <a
+                href="https://github.com/saungthazin13/CalculatorProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:underline mt-2 font-semibold"
+              >
+                🔗 View Code
+              </a>
+              <a
+                href="https://calculator-project-sable-phi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://calculator-project-sable-phi.vercel.app/
               </a>
             </div>
           </div>
@@ -141,7 +350,7 @@ const App: React.FC = () => {
           <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-3 mb-4">
             📫 Contact
           </h2>
-          <p>Email: saung1322001@email.com</p>
+          <p>Email: saung1322001@gmail.com</p>
           <p>
             GitHub:{" "}
             <a
