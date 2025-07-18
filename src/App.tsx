@@ -157,6 +157,39 @@ const App: React.FC = () => {
           <h2 className="text-2xl font-semibold border-l-4 border-green-500 pl-3">
             🚀 Projects
           </h2>
+        <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
+            <div className="md:w-1/3 w-full h-auto md:h-auto">
+              <img
+                src="\images\calculator.png"
+                alt=" Loan Calculator"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
+              <h3 className="text-xl font-semibold mb-2">📝 Loan Calculator</h3>
+              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
+                Developed a clean and functional Yoma loan calculator clone
+                using ES6, focusing on UX and precise loan calculations.
+              </p>
+
+              <a
+                href="https://github.com/saungthazin13/CalculatorProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 hover:underline mt-2 font-semibold"
+              >
+                🔗 View Code
+              </a>
+              <a
+                href="https://calculator-project-sable-phi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600  "
+              >
+                🔗 https://calculator-project-sable-phi.vercel.app/
+              </a>
+            </div>
+          </div>
 
           <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
             <div className="md:w-1/3 w-full h-auto md:h-auto">
@@ -308,39 +341,7 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transition-colors duration-500">
-            <div className="md:w-1/3 w-full h-auto md:h-auto">
-              <img
-                src="\images\calculator.png"
-                alt=" Loan Calculator"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="p-6 flex flex-col justify-center md:w-2/3 w-full">
-              <h3 className="text-xl font-semibold mb-2">📝 Loan Calculator</h3>
-              <p className="text-base text-justify font-medium text-gray-800 dark:text-gray-100">
-                Developed a clean and functional Yoma loan calculator clone
-                using ES6, focusing on UX and precise loan calculations.
-              </p>
-
-              <a
-                href="https://github.com/saungthazin13/CalculatorProject"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 hover:underline mt-2 font-semibold"
-              >
-                🔗 View Code
-              </a>
-              <a
-                href="https://calculator-project-sable-phi.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600  "
-              >
-                🔗 https://calculator-project-sable-phi.vercel.app/
-              </a>
-            </div>
-          </div>
+         
         </section>
 
         <section
