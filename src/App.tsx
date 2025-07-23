@@ -16,7 +16,7 @@ const App: React.FC = () => {
 
         <div className="flex justify-center gap-4">
           <a
-            href="/files/CV Form.pdf"
+            href="/files/CV form.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Resume"
