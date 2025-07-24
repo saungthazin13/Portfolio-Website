@@ -26,7 +26,7 @@ const App: React.FC = () => {
           </a>
 
           <a
-            href="files/CV Form.pdf"
+            href="files/CV form.pdf"
             download
             aria-label="View Resume"
             className="bg-green-500 text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-green-600 transition"
