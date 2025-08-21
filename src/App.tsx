@@ -16,7 +16,7 @@ const App: React.FC = () => {
 
         <div className="flex justify-center gap-4">
           <a
-            href="/files/CV forms.pdf"
+            href="/files/Saung thazin Oo.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View Resume"
@@ -26,7 +26,7 @@ const App: React.FC = () => {
           </a>
 
           <a
-            href="files/CV forms.pdf"
+            href="files/Saung thazin Oo.pdf"
             download
             aria-label="View Resume"
             className="bg-green-500 text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-green-600 transition"
